@@ -14,22 +14,19 @@ def çizimlermenü():
     print("║  10-                             ║")
     print("║                                  ║")
     print("║         Seçiminiz nedir?         ║")
-    print("╚══════════════════════════════════╝")
-
+    print("╚══════════════════════════════════╝")   
     seçim=input()
     if seçim=="1":
         import modüller.cizim_kare
-        modüller.cizim_kare.kareçizimimenü()
-
+        modüller.cizim_kare.kareçizimimenü()    
     if seçim=="2":
         import modüller.cizim_ucgen
         modüller.cizim_ucgen.ucgencizimimenü()
         
     if seçim=="3":
         import modüller.çizimmodülleri
-        modüller.çizimmodülleri.çokgençizimi.çokgençizimimenü
-
+        modüller.çizimmodülleri 
     if seçim=="4":
         import modüller.çizimmodülleri
-        modüller.çizimmodülleri.desençizimi.desençizimimenü
-        
+        modüller.çizimmodülleri
+            

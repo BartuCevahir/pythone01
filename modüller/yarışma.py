@@ -6,6 +6,7 @@ def yarışmamenü():
     print("║   2-Futbol                       ║")
     print("║   3-Basketbol                    ║")
     print("║   4-Voleybol                     ║")
+    print("║   5-Anamenü                      ║")
     print("║                                  ║")
     print("║         Seçiminiz nedir?         ║")
     print("╚══════════════════════════════════╝")
@@ -23,4 +24,4 @@ def yarışmamenü():
     if seçim=="4":
         import modüller.yarışma_voleybol
         modüller.yarışma_voleybol.voleybolmenü()
-    
+    if seçim=="5":pass
